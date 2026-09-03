@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class PlayerMvmt : MonoBehaviour
 {
-
     [SerializeField] float moveSpeed = 5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

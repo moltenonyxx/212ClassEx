@@ -437,7 +437,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3238010192555838964, guid: 9bb7de9931bd14048bfa385dc13bafec, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1311412197}
+      addedObject: {fileID: 1874946611}
   m_SourcePrefab: {fileID: 100100000, guid: 9bb7de9931bd14048bfa385dc13bafec, type: 3}
 --- !u!1 &664289425
 GameObject:
@@ -576,23 +576,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!1 &1311412193 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3238010192555838964, guid: 9bb7de9931bd14048bfa385dc13bafec, type: 3}
-  m_PrefabInstance: {fileID: 578715497}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1311412197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311412193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1442fd3e1a713d14bb02851984f3bada, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &1373115850
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,6 +715,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1874946610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3238010192555838964, guid: 9bb7de9931bd14048bfa385dc13bafec, type: 3}
+  m_PrefabInstance: {fileID: 578715497}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1874946611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874946610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8845e401fa796f449860fc538f55a6d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMvmt
+  moveSpeed: 5
 --- !u!1001 &6630292001881932341
 PrefabInstance:
   m_ObjectHideFlags: 0
