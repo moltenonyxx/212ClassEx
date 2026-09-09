@@ -389,7 +389,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 999526170302473357, guid: 9bb7de9931bd14048bfa385dc13bafec, type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 999526170302473357, guid: 9bb7de9931bd14048bfa385dc13bafec, type: 3}
       propertyPath: m_GravityScale
@@ -636,7 +636,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.15675041, y: 0}
+  m_Offset: {x: 0.15675041, y: -0.019386783}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -646,7 +646,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.6864992, y: 1}
+  m_Size: {x: 0.6864992, y: 0.52502346}
   m_EdgeRadius: 0
 --- !u!212 &1373115852
 SpriteRenderer:
@@ -741,6 +741,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMvmt
   moveSpeed: 5
+  rotateSpeed: 175
 --- !u!1001 &6630292001881932341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -789,9 +790,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2738440574187747413, guid: 1a49ae0c1874e044a99deb68b871041d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6379386099881288557, guid: 1a49ae0c1874e044a99deb68b871041d, type: 3}
       propertyPath: m_Name
       value: BrickBuilding
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379386099881288557, guid: 1a49ae0c1874e044a99deb68b871041d, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -909,6 +918,14 @@ PrefabInstance:
     - target: {fileID: 7228733259319394375, guid: a5c1b8221ac67084b840410f0bba4550, type: 3}
       propertyPath: m_Name
       value: TanBuilding
+      objectReference: {fileID: 0}
+    - target: {fileID: 7531760019463222470, guid: a5c1b8221ac67084b840410f0bba4550, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7531760019463222470, guid: a5c1b8221ac67084b840410f0bba4550, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8981082990494489426, guid: a5c1b8221ac67084b840410f0bba4550, type: 3}
       propertyPath: m_SortingOrder
